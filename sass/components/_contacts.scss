@@ -1,0 +1,121 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    fill: currentColor;
+    transition: color 250ms var(--timing-function);
+}
+
+.email:hover,
+.email:focus {
+    color: var(--accent-color);
+}
+
+.icon-envelope {
+    margin-right: 10px;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus {
+    fill: var(--accent-color);
+
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    fill: currentColor;
+    transition: color 250ms var(--timing-function);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+.icon-tel {
+    margin-right: 10px;
+}
+
+.icon-tel:hover,
+.icon-tel:focus {
+    fill: var(--accent-color);
+}
+
+.adress-item:hover,
+.adress-item:focus {
+    color: var(--accent-color);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.adress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.adress-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white);
+    transition: color 250ms var(--timing-function);
+}
+
+.email-item:hover,
+.email-item:focus {
+    color: var(--accent-color);
+}
+
+.email-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--timing-function);
+}
+
+.tel-item:hover,
+.tel-item:focus {
+    color: var(--accent-color);
+}
+
+.tel-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--timing-function);
+}

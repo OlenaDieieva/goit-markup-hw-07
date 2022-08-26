@@ -1,0 +1,279 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* вторичный цвет текста #000000 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #2F303A; */
+/* вторичный цвет фона #F5F4FA */
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* ---------------------- ЛОГОТИП -----------------*/
+
+/* -------------------Контакты-------------------- */
+
+/*---------------------ГЕРОЙ --------------------- */
+
+/* --------------------Overlay---------------------*/
+
+/*-------------- ФИЛЬТР РАБОТ-Портфолио ---------- */
+
+/* ----------------- НАШИ ОСОБЕННОСТИ ------------ */
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: start;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+}
+
+.features-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: var(--secondary-background-color);
+    border-radius: 4px;
+    background-position: center;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: start;
+    margin-top: 0px;
+    color: var(--title-text-color);
+}
+
+.features-item:not(last child) {
+    margin-right: 30px;
+}
+
+.item:not(last child) {
+    margin-right: 30px;
+}
+
+/*--------------- ЧЕМ МЫ ЗАНИМАЕМСЯ -------------- */
+
+/*-------------- ПОСТОЯННЫЕ КЛИЕНТЫ ---------------*/
+/*------------------- НАША КОМАНДА ----------------*/
+
+
+/*--------------------- ГАЛЕРЕЯ ------------------ */
+
+/*-------------- ФУТЕР САЙТА --------------- */
+
+/*------------- Присоединяйтесь ------------ */
+
+/*----------- Подпишитесь на рассылку--------- */
+
+/* -------------- Модальное окно -------------- */
+.form-field-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+}
+
+.form-field {
+    left: 7px;
+    bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font: inherit;
+    transition: border 250ms var(--timing-function);
+    padding-left: 42px;
+}
+
+.form-input:focus {
+    outline-color: var(--accent-color);
+}
+
+.form-input:focus+.form-icon {
+    fill: var(--accent-color);
+}
+
+.form-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 12px;
+    fill: var(--primary-text-color);
+    transform: translateY(-50%);
+    transition: fill 250ms var(--timing-function);
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.comment-form {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    width: 100%;
+    height: 138px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.comment-form:focus {
+    outline-color: var(--accent-color);
+}
+
+
+.accent {
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+    cursor: pointer;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.accent:hover .accent:focus {
+    color: var(--accent-color);
+}
+
+.label-checkbox {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    display: flex;
+    align-items: center;
+}
+
+.label-checkbox::before {
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--primary-text-color);
+    border-radius: 4px;
+    margin-right: 7px;
+    align-items: center;
+    transition: background-color 250ms var(--timing-function);
+}
+
+.checkbox:checked+.label-checkbox::before {
+    background-color: var(--accent-color);
+    background-image: url("../images3/icon\ check-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
+    border-color: var(--accent-color);
+}
+
+.submit {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 56px;
+    padding-right: 55px;
+    color: var(--white);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms var(--timing-function);
+}
+
+.submit:hover .submit:focus {
+    background-color: #188CE8;
+}
+
+/* -------11111------ */
+.subscription {
+    display: block;
+    justify-content: center;
+    gap: 12px;
+}
+
+.subscription-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.subscription-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.subscription-icon {
+    margin-left: 10px;
+    align-self: center;
+    fill: var(--white);
+}
+
+.subscription-input::placeholder {
+    width: 47px;
+    height: 20px;
+    left: 831px;
+    top: 2802px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+}
+
+/* -------222------ */

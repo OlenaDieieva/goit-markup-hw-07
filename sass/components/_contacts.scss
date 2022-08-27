@@ -10,7 +10,6 @@
     align-items: center;
     margin-right: 10px;
     gap: 10px;
-
 }
 
 .email {
@@ -39,7 +38,6 @@
 .icon-envelope:hover,
 .icon-envelope:focus {
     fill: var(--accent-color);
-
 }
 
 .tel {
@@ -69,53 +67,4 @@
 .icon-tel:hover,
 .icon-tel:focus {
     fill: var(--accent-color);
-}
-
-.adress-item:hover,
-.adress-item:focus {
-    color: var(--accent-color);
-}
-
-.adress {
-    font-style: normal;
-}
-
-.adress-list {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-}
-
-.adress-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--white);
-    transition: color 250ms var(--timing-function);
-}
-
-.email-item:hover,
-.email-item:focus {
-    color: var(--accent-color);
-}
-
-.email-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms var(--timing-function);
-}
-
-.tel-item:hover,
-.tel-item:focus {
-    color: var(--accent-color);
-}
-
-.tel-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms var(--timing-function);
 }

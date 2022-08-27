@@ -51,6 +51,24 @@
     gap: 30px;
 }
 
+.example-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--title-text-color)
+}
+
+.photo {
+    display: block;
+    text-decoration: none;
+    transition: box-shadow 250ms var(--timing-function);
+}
+
+.photo:hover,
+.photo:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .galery-overlay-text {
     position: absolute;
     top: 0;

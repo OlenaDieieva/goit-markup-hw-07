@@ -25,6 +25,24 @@
     gap: 10px;
 }
 
+.join-social-net.link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: currentColor;
+    color: var(--white);
+    transition: background-color 250ms var(--timing-function);
+}
+
 .join-icon {
     fill: var(--white);
+}
+
+.join-social-net.link:hover,
+.join-social-net.link:focus {
+    background-color: var(--accent-color);
 }

@@ -1,3 +1,9 @@
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--secondary-background-color);
+}
+
 .section-title {
     margin-bottom: 49px;
     font-weight: 700;
@@ -40,6 +46,15 @@
     color: var(--primary-text-color);
 }
 
+.vocation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 16px;
+}
+
 .list-net {
     display: flex;
     align-items: center;
@@ -65,13 +80,4 @@
 .list-net-item.one {
     width: 44px;
     border-radius: 50%;
-}
-
-.vocation {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    color: var(--title-text-color);
-    margin-bottom: 16px;
 }

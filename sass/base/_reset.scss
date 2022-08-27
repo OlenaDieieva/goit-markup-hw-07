@@ -1,3 +1,9 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 h1,
 h2,
 h3,
@@ -9,19 +15,12 @@ p {
     margin-bottom: 0px;
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-a {
-    text-decoration: none;
-}
-
-
 img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }

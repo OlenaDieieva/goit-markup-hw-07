@@ -15,3 +15,52 @@
     background-color: var(--accent-color);
     color: var(--white);
 }
+
+.join {
+    margin-right: 93px;
+}
+
+.join-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.join-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.join-item {
+    gap: 10px;
+}
+
+.join-social-net.link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: currentColor;
+    color: var(--white);
+    transition: background-color 250ms var(--timing-function);
+}
+
+.join-icon {
+    fill: var(--white);
+}
+
+.join-social-net.link:hover,
+.join-social-net.link:focus {
+    background-color: var(--accent-color);
+}

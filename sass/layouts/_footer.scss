@@ -5,72 +5,8 @@
     background: var(--primary-background-color);
 }
 
-.footer .logo-footer {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--white);
-    background: var(--primary-background-color);
-}
-
 .locate {
     margin-right: 70px;
-}
-
-.adress {
-    font-style: normal;
-}
-
-.adress-item:hover,
-.adress-item:focus {
-    color: var(--accent-color);
-}
-
-.adress-list {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-}
-
-.adress-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--white);
-    transition: color 250ms var(--timing-function);
-}
-
-.email-item:hover,
-.email-item:focus {
-    color: var(--accent-color);
-}
-
-.email-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms var(--timing-function);
-}
-
-.tel-item:hover,
-.tel-item:focus {
-    color: var(--accent-color);
-}
-
-.tel-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms var(--timing-function);
 }
 
 footer.container {

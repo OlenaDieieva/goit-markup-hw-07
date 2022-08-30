@@ -1,21 +1,21 @@
-.section.work {
+.work section {
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.work-ad {
+.product {
     position: relative
 }
 
-.ad {
+.product__text {
     position: absolute;
     bottom: 0px;
     display: flex;
@@ -26,7 +26,7 @@
     background: rgba(47, 48, 58, 0.8);
 }
 
-.ad-name {
+.product__name {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

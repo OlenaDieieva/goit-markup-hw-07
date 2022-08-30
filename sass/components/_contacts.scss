@@ -1,18 +1,18 @@
-.contact {
+.contact-list {
     display: flex;
     align-items: center;
     gap: 50px;
     margin-left: auto;
 }
 
-.contact-list {
+.contact-list__item {
     display: flex;
     align-items: center;
     margin-right: 10px;
     gap: 10px;
 }
 
-.email {
+.contact-list__email {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -26,21 +26,21 @@
     transition: color 250ms var(--timing-function);
 }
 
-.email:hover,
-.email:focus {
+.contact-list__email:hover,
+.contact-list__email:focus {
     color: var(--accent-color);
 }
 
-.icon-envelope {
+.contact-list__icon-envelope {
     margin-right: 10px;
 }
 
-.icon-envelope:hover,
-.icon-envelope:focus {
+.contact-list__icon-envelope:hover,
+.contact-list__icon-envelope:focus {
     fill: var(--accent-color);
 }
 
-.tel {
+.contact-list__tel {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,17 +55,17 @@
     transition: color 250ms var(--timing-function);
 }
 
-.tel:hover,
-.tel:focus {
+.contact-list__tel:hover,
+.contact-list__tel:focus {
     color: var(--accent-color);
 }
 
-.icon-tel {
+.contact-list__icon-tel {
     margin-right: 10px;
 }
 
-.icon-tel:hover,
-.icon-tel:focus {
+.contact-list__icon-tel:hover,
+.contact-list__icon-tel:focus {
     fill: var(--accent-color);
 }
 
@@ -73,18 +73,18 @@
     font-style: normal;
 }
 
-.adress-item:hover,
-.adress-item:focus {
+.adress__item:hover,
+.adress__item:focus {
     color: var(--accent-color);
 }
 
-.adress-list {
+.adress__list {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
 
-.adress-item {
+.adress__item {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -92,12 +92,12 @@
     transition: color 250ms var(--timing-function);
 }
 
-.email-item:hover,
-.email-item:focus {
+.adress__email-item:hover,
+.adress__email-item:focus {
     color: var(--accent-color);
 }
 
-.email-item {
+.adress__email-item {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -105,12 +105,12 @@
     transition: color 250ms var(--timing-function);
 }
 
-.tel-item:hover,
-.tel-item:focus {
+.adress__tel-item:hover,
+.adress__tel-item:focus {
     color: var(--accent-color);
 }
 
-.tel-item {
+.adress__tel-item {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

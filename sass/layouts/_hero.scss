@@ -1,10 +1,10 @@
-.hero {
+.hero section {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
     width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -17,13 +17,13 @@
     color: var(--white);
 }
 
-.hero.button-primary:hover,
-.hero.button-primary:focus {
+.hero section.hero__button-primary:hover,
+.hero section.hero__button-primary:focus {
     background: var(--secondary-accent-color);
     color: var(--white);
 }
 
-.hero.button-primary {
+.hero section.hero__button-primary {
     font-family: inherit;
     cursor: pointer;
     font-weight: 700;

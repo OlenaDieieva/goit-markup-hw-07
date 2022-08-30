@@ -1,23 +1,23 @@
-.clients {
+.clients section {
     padding-top: 94px;
     padding-bottom: 126px;
     background-color: var(--white);
 }
 
 
-.clients-list {
+.clients__list {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.clients-item {
+.clients__item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,15 +30,15 @@
     transition: color 250ms var(--timing-function);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
     border: 1px solid var(--accent-color);
     background-color: var(--white);
     fill: var(--grey);
 }
 
-.clients-logo:hover,
-.clients-logo:focus {
+.clients__logo:hover,
+.clients__logo:focus {
     background-color: var(--white);
     fill: var(--accent-color);
 }

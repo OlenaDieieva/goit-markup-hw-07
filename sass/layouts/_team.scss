@@ -1,16 +1,16 @@
-.section-team {
+.team section {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--secondary-background-color);
 }
 
-.team-list {
+.team__list {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.team-item {
+.card {
     width: 270px;
     height: 428px;
     background-color: var(--white);
@@ -18,14 +18,14 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team {
+.card-name {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
-.team-title {
+.card__title {
     margin-bottom: 10px;
     align-content: center;
     justify-content: center;
@@ -36,38 +36,11 @@
     color: var(--primary-text-color);
 }
 
-.vocation {
+.card__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     color: var(--title-text-color);
     margin-bottom: 16px;
-}
-
-.list-net {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.list-net-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--white);
-    fill: var(--grey);
-    cursor: pointer;
-}
-
-.list-net-item.one {
-    width: 44px;
-    border-radius: 50%;
 }

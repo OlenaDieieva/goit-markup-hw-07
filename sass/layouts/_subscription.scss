@@ -1,4 +1,4 @@
-.subscription-title {
+.subscription__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -16,14 +16,14 @@
     gap: 12px;
 }
 
-.subscription-btn {
+.subscription__btn {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
 }
 
-.subscription-button {
+.subscription__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,13 +34,13 @@
     padding: 10px 29px;
 }
 
-.subscription-icon {
+.subscription__icon {
     margin-left: 10px;
     align-self: center;
     fill: var(--white);
 }
 
-.subscription-input::placeholder {
+.subscription__input::placeholder {
     width: 47px;
     height: 20px;
     left: 831px;

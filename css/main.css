@@ -47,7 +47,7 @@
   padding: 6px 22px;
 }
 
-.btn-group__button-primary {
+.btn-group__button.primary {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -975,11 +975,11 @@ header.container {
   gap: 30px;
 }
 
-.product {
+.specifics {
   position: relative;
 }
 
-.product__text {
+.specifics__text {
   position: absolute;
   bottom: 0px;
   display: flex;
@@ -990,7 +990,7 @@ header.container {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.product__name {
+.specifics__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

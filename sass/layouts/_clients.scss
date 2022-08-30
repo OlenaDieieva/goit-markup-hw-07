@@ -28,13 +28,13 @@
     fill: currentColor;
     color: var(--grey);
     transition: color 250ms var(--timing-function);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-    border: 1px solid var(--accent-color);
-    background-color: var(--white);
-    fill: var(--grey);
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        background-color: var(--white);
+        fill: var(--grey);
+    }
 }
 
 .clients__logo:hover,

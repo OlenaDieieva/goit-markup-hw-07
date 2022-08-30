@@ -63,13 +63,6 @@
   background-color: var(--accent-color);
 }
 
-.btn-group .btn-group__button:hover,
-.btn-group .btn-group__button:focus {
-  color: var(--white);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
 .btn-group {
   display: flex;
   align-items: center;
@@ -77,6 +70,9 @@
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 34px;
+}
+.btn-group:nth-last-child(3) {
+  margin-right: 0px;
 }
 
 .btn-group .btn-group__button {
@@ -93,9 +89,10 @@
   background-color: var(--secondary-background-color);
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
-
-.btn-group:nth-last-child(3) {
-  margin-right: 0px;
+.btn-group .btn-group__button:hover, .btn-group .btn-group__button:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .contact-list {
@@ -790,6 +787,9 @@ header.container {
   color: var(--primary-text-color);
   transition: color 250ms var(--timing-function);
 }
+.navigation-list__link:hover, .navigation-list__link:focus {
+  color: var(--accent-color);
+}
 
 .navigation-list {
   display: flex;
@@ -797,15 +797,15 @@ header.container {
   justify-content: space-between;
   gap: 50px;
 }
-.navigation-list.current {
+
+.current {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--accent-color);
   position: relative;
 }
-
-.navigation-list__link::after {
+.current::after {
   position: absolute;
   content: "";
   display: block;
@@ -818,12 +818,7 @@ header.container {
   transition: background 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
-.navigation-list__link:hover,
-.navigation-list__link:focus {
-  color: var(--accent-color);
-}
-
-.hero section {
+.hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -842,13 +837,7 @@ header.container {
   color: var(--white);
 }
 
-.hero section.hero__button-primary:hover,
-.hero section.hero__button-primary:focus {
-  background: var(--secondary-accent-color);
-  color: var(--white);
-}
-
-.hero section.hero__button-primary {
+.hero__button-primary {
   font-family: inherit;
   cursor: pointer;
   font-weight: 700;
@@ -869,6 +858,10 @@ header.container {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+}
+.hero__button-primary:hover, .hero__button-primary:focus {
+  background: var(--secondary-accent-color);
+  color: var(--white);
 }
 
 .team section {
@@ -948,9 +941,7 @@ header.container {
   color: var(--grey);
   transition: color 250ms var(--timing-function);
 }
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid var(--accent-color);
   background-color: var(--white);
   fill: var(--grey);

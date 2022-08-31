@@ -3,17 +3,16 @@
     padding-bottom: 94px;
 }
 
-.section .features section {
+.features__section {
     margin-bottom: 0px;
     background-color: var(--white);
 }
 
-.section.features section .container {
+.features__section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 
 .features-list {
     display: flex;
@@ -55,10 +54,10 @@
     color: var(--title-text-color);
 }
 
-.features-list__item:not(last child) {
+.features-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.item:not(last child) {
+.item:not(:last-child) {
     margin-right: 30px;
 }

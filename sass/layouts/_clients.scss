@@ -1,9 +1,8 @@
-.clients section {
+.clients__section {
     padding-top: 94px;
     padding-bottom: 126px;
     background-color: var(--white);
 }
-
 
 .clients__list {
     display: flex;
@@ -32,8 +31,7 @@
     &:hover,
     &:focus {
         border: 1px solid var(--accent-color);
-        background-color: var(--white);
-        fill: var(--grey);
+        fill: var(--accent-color);
     }
 }
 
